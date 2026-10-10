@@ -1,0 +1,44 @@
+===========================================
+  CARA DEPLOY PALING MUDAH (Railway)
+===========================================
+
+1. Buka situs: https://railway.app
+2. Login pakai akun Google / GitHub
+3. Klik tombol "New Project"
+4. Pilih "Deploy from GitHub repo"
+   (atau "Empty Project" lalu upload folder ini)
+
+5. Kalau pakai GitHub:
+   - Buat repo baru di GitHub
+   - Upload semua file di dalam folder ini
+   - Connect repo tersebut ke Railway
+
+6. Railway akan otomatis build (tunggu 2-3 menit)
+
+7. Setelah selesai, klik "Settings" → "Generate Domain"
+8. Selesai! Link sudah bisa dibuka dan dipakai.
+
+
+===========================================
+  CARA CEPAT ALTERNATIF
+===========================================
+
+1. Install Railway CLI:
+   npm install -g @railway/cli
+
+2. Di folder project ini jalankan:
+   railway login
+   railway init
+   railway up
+
+3. Selesai.
+
+
+===========================================
+  CATATAN
+===========================================
+
+- Video maksimal 50 MB
+- Proses biasanya 20–60 detik
+- Ini bukan AI, hanya memperbesar resolusi
+- Free tier Railway cukup untuk coba-coba
